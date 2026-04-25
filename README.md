@@ -1,22 +1,49 @@
-# Resume Classifier (Streamlit)
+# 🚀 AI Resume Analyzer (BERT Powered)
 
-## Overview
-ML-based resume classification app using Streamlit.
+A production-ready **AI-powered Resume Analyzer** that classifies resumes, computes ATS match scores, and identifies skill gaps using **BERT (Sentence Transformers)** and **Streamlit**.
 
-## Tech
-- Python
-- scikit-learn
-- Streamlit
+---
 
-## Run
-pip install -r requirements.txt
-python src/train.py
-streamlit run app/app.py
+## 🌍 Live Demo
 
-## Features
-- Real-time prediction
-- Clean UI
+🔗 https://your-app-name.streamlit.app  
+*(Replace with your deployed link)*
 
-## Future Work
-- BERT integration
-- Cloud deployment
+---
+
+## 📌 Overview
+
+This project simulates a real-world **Applicant Tracking System (ATS)** used by companies.
+
+It allows users to:
+- Upload a resume (PDF) or paste text
+- Paste a job description
+- Get:
+  - 🎯 Predicted job role
+  - 📊 ATS match score
+  - ✅ Matched skills
+  - ❌ Missing skills
+
+---
+
+## 🧠 Key Features
+
+- 🔍 **BERT-based Resume Classification**
+- 📄 **PDF Resume Upload & Parsing**
+- 📊 **ATS Score using Semantic Similarity**
+- 🧠 **Skill Extraction & Gap Analysis**
+- 🌐 **Interactive Web App (Streamlit)**
+- ⚡ **Real-time Predictions**
+
+---
+
+## 🛠️ Tech Stack
+
+| Category        | Tools Used |
+|----------------|----------|
+| Language       | Python |
+| NLP Model      | Sentence Transformers (BERT) |
+| ML/NLP         | scikit-learn |
+| Backend/UI     | Streamlit |
+| PDF Processing | PyPDF2 |
+| Deployment     | Streamlit Cloud |
