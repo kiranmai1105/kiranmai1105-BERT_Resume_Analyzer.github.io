@@ -6,7 +6,7 @@ A production-ready **AI-powered Resume Analyzer** that classifies resumes, compu
 
 ## 🌍 Live Demo
 
-🔗 https://your-app-name.streamlit.app  
+🔗 https://BERT_Resume_Analyzer.streamlit.app  
 *(Replace with your deployed link)*
 
 ---
